@@ -41,6 +41,7 @@ class Dev(Configuration):
             'django.contrib.sessions',
             'django.contrib.messages',
             'django.contrib.staticfiles',
+            'django_celery_results',
             'movies',
             'gh',
         ]
@@ -162,3 +163,7 @@ class Dev(Configuration):
         SESSION_COOKIE_SAMESITE = "None"
 
         OMDB_KEY = "bdc76f27" #ideally should be environment variable and use SecretValue() instead
+
+        CELERY_RESULT_BACKEND = "django-db"
+        CELERY_BROKER_URL = "redis://localhost:6379/0"
+        
