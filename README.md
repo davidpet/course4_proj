@@ -2,6 +2,10 @@
 
 This is the repo for Course 4 of the Coursera Advanced Django Specialization.
 
+The interesting parts are:
+- OMDb query client app (no views done on course)
+- github app
+
 ## pip packages
 - django
 - crispy-bootstrap5
