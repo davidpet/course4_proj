@@ -1,4 +1,25 @@
 # course4_proj
-OMDB project in Course 4 of Advanced Django specialization
 
-This is the starting point of the project. It is the equivalent of running `django-admin startproject course4_proj` in the terminal.
+This is the repo for Course 4 of the Coursera Advanced Django Specialization.
+
+## pip packages
+- django
+- crispy-bootstrap5
+- django-configurations django-database-url [2 packages 1 install command]
+- pymemcache
+- django-debug-toolbar
+- django-registration
+- django-allauth (and I think there might be more plugins for this installed as well???)
+- Pillow
+- django-versatileimagefield
+- celery django-celery-results redis
+- django-celery-beat
+- djangorestframework
+- requests
+- django-filter
+- djangorestframework-simplejwt
+- drf-yasg (not sure if actually installed and used or just demonstrated)
+- drf-spectacular (not installed)
+
+## sudo/brew packages
+- redis (as celery broker)
